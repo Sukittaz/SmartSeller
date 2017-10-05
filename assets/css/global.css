@@ -1,0 +1,69 @@
+/* Search Products Results */
+.searchResultsPurchase {
+	width: 98.2%;
+	background-color: #FFF;
+	position: absolute;
+	border: 1px solid #3c8dbc;
+	z-index: 1;
+}
+
+.searchResultsCashier {
+	width: 96.2%;
+	background-color: #FFF;
+	position: absolute;
+	border: 1px solid #3c8dbc;
+	z-index: 1;
+}
+
+.searchItemPurchase,
+.searchItemCashier {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	cursor:pointer;
+}
+
+.searchItemPurchase:hover,
+.searchItemCashier:hover {
+	background-color: #3c8dbc;
+}
+
+/* th of products */
+.thCashier {
+	background-color: #CCFFCC !important;
+	padding: 5px;
+}
+
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+/* Cashier */
+.inputCashier {
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: 80px;
+}
+
+
+/* Multiple Select */
+.select2-container--default
+.select2-selection--multiple
+.select2-selection__choice {
+	background-color: #3c8dbc !important;
+	border-color: #367fa9 !important;
+	padding: 1px 10px !important;
+	color: #fff !important;
+}
